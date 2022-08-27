@@ -5,8 +5,8 @@ public class Professor {
 
     public Professor(String nome, String horarioAtendiento, String periodo) {
         this.Nome = nome;
-        HorarioAtendiento = horarioAtendiento;
-        Periodo = periodo;
+        this.HorarioAtendiento = horarioAtendiento;
+        this.Periodo = periodo;
     }
 
     public String getNome() {
@@ -26,10 +26,10 @@ public class Professor {
     }
 
     public void setHorarioAtendiento(String horarioAtendiento) {
-        HorarioAtendiento = horarioAtendiento;
+        this.HorarioAtendiento = horarioAtendiento;
     }
 
     public void setPeriodo(String periodo) {
-        Periodo = periodo;
+        this.Periodo = periodo;
     }
 }

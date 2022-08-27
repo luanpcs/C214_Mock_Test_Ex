@@ -2,8 +2,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class TestBuscaProfessor {
-
-
     @Test
     public void testeBuscaProfessor1() {
         ProfessorService prof = new MockProfessorService();
